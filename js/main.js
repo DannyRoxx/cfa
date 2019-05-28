@@ -6,33 +6,80 @@
 	$("#burger").click(function() {
 		$("nav ul").toggle();
 	});
-	
-	$("#nav1").click(function() {
-		$("#menu1").toggle();
-		$("#menu2").hide();
-		$("#menu3").hide();
-		$("#menu4").hide();
+		 
+/* Drop Down */
+	/* $(".droph2").click(function() {
+		$(".dropul").toggle();
+	});*/
+		 
+	/* Om Center for Autisme */
+		 
+	$("#organisation").click(function() {
+		$("#organisation-ul").toggle();
+		$("#sponsorer-ul").hide();
+		$("#faglig-platform-text").hide();
+		$("#demetrious-haracopos-legat-text").hide();
 	});
 		 
-	$("#nav2").click(function() {
-		$("#menu1").hide();
-		$("#menu2").toggle();
-		$("#menu3").hide();
-		$("#menu4").hide();
+				$("#formål").click(function() {
+					$("#formål-text").toggle();
+					$("#mission-og-vision-text").hide();
+					$("#ledelse-og-bestyrelse-text").hide();
+					$("#medarbejdere-text").hide();
+					$("#jubilaeum-text").hide();
+				});
+
+				$("#mission-og-vision").click(function() {
+					$("#formål-text").hide();
+					$("#mission-og-vision-text").toggle();
+					$("#ledelse-og-bestyrelse-text").hide();
+					$("#medarbejdere-text").hide();
+					$("#jubilaeum-text").hide();
+				});
+
+				$("#ledelse-og-bestyrelse").click(function() {
+					$("#formål-text").hide();
+					$("#mission-og-vision-text").hide();
+					$("#ledelse-og-bestyrelse-text").toggle();
+					$("#medarbejdere-text").hide();
+					$("#jubilaeum-text").hide();
+				});
+
+				$("#medarbejdere").click(function() {
+					$("#formål-text").hide();
+					$("#mission-og-vision-text").hide();
+					$("#ledelse-og-bestyrelse-text").hide();
+					$("#medarbejdere-text").toggle();
+					$("#jubilaeum-text").hide();
+				});
+
+				$("#jubilaeum").click(function() {
+					$("#formål-text").hide();
+					$("#mission-og-vision-text").hide();
+					$("#ledelse-og-bestyrelse-text").hide();
+					$("#medarbejdere-text").hide();
+					$("#jubilaeum-text").toggle();
+				});
+		 
+	$("#sponsorer").click(function() {
+		$("#organisation-ul").hide();
+		$("#sponsorer-ul").toggle();
+		$("#faglig-platform-text").hide();
+		$("#demetrious-haracopos-legat-text").hide();
 	});
 		 
-	$("#nav3").click(function() {
-		$("#menu1").hide();
-		$("#menu2").hide();
-		$("#menu3").toggle();
-		$("#menu4").hide();
+	$("#faglig-platform").click(function() {
+		$("#organisation-ul").hide();
+		$("#sponsorer-ul").hide();
+		$("#faglig-platform-text").toggle();
+		$("#demetrious-haracopos-legat-text").hide();
 	});
 		 
-	$("#nav4").click(function() {
-		$("#menu1").hide();
-		$("#menu2").hide();
-		$("#menu3").hide();
-		$("#menu4").toggle();
+	$("#demetrious-haracopos-legat").click(function() {
+		$("#organisation-ul").hide();
+		$("#sponsorer-ul").hide();
+		$("#faglig-platform-text").hide();
+		$("#demetrious-haracopos-legat-text").toggle();
 	});
 	
 });
