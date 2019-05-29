@@ -169,10 +169,10 @@ nav li a {
 
 /* Front */
 #front {
-	background: url(..//img/front.jpg);
+	background-image: url(..//img/front-mobil.jpg);
 	background-size: cover;
 	background-position: center;
-	padding: 2% 1rem;
+	padding: 40% 1rem 5%;
 	display: flex;
 	flex-direction: column;
 	align-items: start;
@@ -180,13 +180,13 @@ nav li a {
 }
 
 #front h2 {
-	font-size: 4.5rem;
+	font-size: 3.4rem;
 	margin-bottom: 1vh;
 	color: var(--white);
 }
 
 #front p {
-	font-size: 1.3rem;
+	font-size: 1.4rem;
 	margin-top: 0;
 	margin-right: 0;
 	color: var(--white);
@@ -362,7 +362,7 @@ nav li a {
 .droph4 {
 	color: var(--black);
 	padding: 2.5% 4%;
-	margin: 2% 0 2% -12%;
+	margin: 5% 0 5% -12%;
 	border-radius: 5px;
 }
 
@@ -574,11 +574,13 @@ footer img {
 	}
 	
 	#front {
+		background-image: url(..//img/front.jpg);
 		padding: 7% 1rem;
 	}
 	
 	#front h2 {
 		font-size: 4.5rem;
+		margin-top: 6vh;
 	}
 	
 	#front p {
