@@ -110,7 +110,7 @@
 				$("#telefon-raadgivning").click(function() {
 					$("#telefon-raadgivning-text").toggle();
 					$("#supervision-text").hide();
-					$("#foraeldre-raadgivning-text").hide();
+					$(".foraeldre-raadgivning-text").hide();
 					$("#seksualvejledning-text").hide();
 					$("#saerlige-tilbud-til-saarbare-kvinder-text").hide();
 					$("#specialpaedagogisk-stoette-og-vejledning-text").hide();
@@ -123,7 +123,7 @@
 		 		$("#supervision").click(function() {
 					$("#telefon-raadgivning-text").hide();
 					$("#supervision-text").toggle();
-					$("#foraeldre-raadgivning-text").hide();
+					$(".foraeldre-raadgivning-text").hide();
 					$("#seksualvejledning-text").hide();
 					$("#saerlige-tilbud-til-saarbare-kvinder-text").hide();
 					$("#specialpaedagogisk-stoette-og-vejledning-text").hide();
@@ -136,7 +136,7 @@
 		 		$("#foraeldre-raadgivning").click(function() {
 					$("#telefon-raadgivning-text").hide();
 					$("#supervision-text").hide();
-					$("#foraeldre-raadgivning-text").toggle();
+					$(".foraeldre-raadgivning-text").toggle();
 					$("#seksualvejledning-text").hide();
 					$("#saerlige-tilbud-til-saarbare-kvinder-text").hide();
 					$("#specialpaedagogisk-stoette-og-vejledning-text").hide();
@@ -149,7 +149,7 @@
 		 		$("#seksualvejledning").click(function() {
 					$("#telefon-raadgivning-text").hide();
 					$("#supervision-text").hide();
-					$("#foraeldre-raadgivning-text").hide();
+					$(".foraeldre-raadgivning-text").hide();
 					$("#seksualvejledning-text").toggle();
 					$("#saerlige-tilbud-til-saarbare-kvinder-text").hide();
 					$("#specialpaedagogisk-stoette-og-vejledning-text").hide();
@@ -162,7 +162,7 @@
 		 		$("#saerlige-tilbud-til-saarbare-kvinder").click(function() {
 					$("#telefon-raadgivning-text").hide();
 					$("#supervision-text").hide();
-					$("#foraeldre-raadgivning-text").hide();
+					$(".foraeldre-raadgivning-text").hide();
 					$("#seksualvejledning-text").hide();
 					$("#saerlige-tilbud-til-saarbare-kvinder-text").toggle();
 					$("#specialpaedagogisk-stoette-og-vejledning-text").hide();
@@ -175,7 +175,7 @@
 		 		$("#specialpaedagogisk-stoette-og-vejledning").click(function() {
 					$("#telefon-raadgivning-text").hide();
 					$("#supervision-text").hide();
-					$("#foraeldre-raadgivning-text").hide();
+					$(".foraeldre-raadgivning-text").hide();
 					$("#seksualvejledning-text").hide();
 					$("#saerlige-tilbud-til-saarbare-kvinder-text").hide();
 					$("#specialpaedagogisk-stoette-og-vejledning-text").toggle();
@@ -188,7 +188,7 @@
 		 		$("#saerlig-specialpaedagogisk-mentor-og-coach").click(function() {
 					$("#telefon-raadgivning-text").hide();
 					$("#supervision-text").hide();
-					$("#foraeldre-raadgivning-text").hide();
+					$(".foraeldre-raadgivning-text").hide();
 					$("#seksualvejledning-text").hide();
 					$("#saerlige-tilbud-til-saarbare-kvinder-text").hide();
 					$("#specialpaedagogisk-stoette-og-vejledning-text").hide();
@@ -201,7 +201,7 @@
 		 		$("#mere-end-bare-hjemmevejledning").click(function() {
 					$("#telefon-raadgivning-text").hide();
 					$("#supervision-text").hide();
-					$("#foraeldre-raadgivning-text").hide();
+					$(".foraeldre-raadgivning-text").hide();
 					$("#seksualvejledning-text").hide();
 					$("#saerlige-tilbud-til-saarbare-kvinder-text").hide();
 					$("#specialpaedagogisk-stoette-og-vejledning-text").hide();
@@ -214,7 +214,7 @@
 		 		$("#psykoedukation").click(function() {
 					$("#telefon-raadgivning-text").hide();
 					$("#supervision-text").hide();
-					$("#foraeldre-raadgivning-text").hide();
+					$(".foraeldre-raadgivning-text").hide();
 					$("#seksualvejledning-text").hide();
 					$("#saerlige-tilbud-til-saarbare-kvinder-text").hide();
 					$("#specialpaedagogisk-stoette-og-vejledning-text").hide();
@@ -227,7 +227,7 @@
 		 		$("#henvisning-og-priser1").click(function() {
 					$("#telefon-raadgivning-text").hide();
 					$("#supervision-text").hide();
-					$("#foraeldre-raadgivning-text").hide();
+					$(".foraeldre-raadgivning-text").hide();
 					$("#seksualvejledning-text").hide();
 					$("#saerlige-tilbud-til-saarbare-kvinder-text").hide();
 					$("#specialpaedagogisk-stoette-og-vejledning-text").hide();
@@ -339,14 +339,14 @@
 		$("#statusmoede-text").toggle();
 		$("#stu-ul").hide();
 		$("#job-ul").hide();
-		$("#mentor-text").hide();
+		$(".mentor-text").hide();
 	});
 		 
 	$("#stu").click(function() {
 		$("#statusmoede-text").hide();
 		$("#stu-ul").toggle();
 		$("#job-ul").hide();
-		$("#mentor-text").hide();
+		$(".mentor-text").hide();
 	});
 		 
 		 		$("#fag").click(function() {
@@ -423,7 +423,7 @@
 		$("#statusmoede-text").hide();
 		$("#stu-ul").hide();
 		$("#job-ul").toggle();
-		$("#mentor-text").hide();
+		$(".mentor-text").hide();
 	});	 
 		 
 		 		$("#vaerksted").click(function() {
@@ -484,7 +484,7 @@
 		$("#statusmoede-text").hide();
 		$("#stu-ul").hide();
 		$("#job-ul").hide();
-		$("#mentor-text").toggle();
+		$(".mentor-text").toggle();
 	});	 
 		 
 		 

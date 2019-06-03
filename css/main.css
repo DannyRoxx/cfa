@@ -298,7 +298,7 @@ nav li a {
 }
 
 .text3 p {
-	margin-right: 2%;
+	margin-right: 0;
 }
 
 #h1-blue {
@@ -324,6 +324,10 @@ nav li a {
 	padding: 2%;
 	margin: 0 3% 2%;
 	background-color: #EEEEEE;
+}
+
+.dropdown article {
+	min-width: 100%;
 }
 
 .dropdown p {
@@ -670,7 +674,7 @@ footer img {
 	}
 	
 	.text3 p {
-		margin-right: 0;
+		margin-right: 8%;
 	}
 	
 	/* Drop Down */
